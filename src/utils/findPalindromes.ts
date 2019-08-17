@@ -26,7 +26,7 @@ export interface PalindromeResult {
  * Each letter is marked as whether or not it is part of a palindrome/subpalindrome
  * e.g. if str = pool then the two o's are marked.
  */
-export default (str: string): PalindromeResult => {
+export default (str = ''): PalindromeResult => {
   const value = str.toLowerCase().replace(/[^0-9a-z]/gi, '');
 
   const characters: Character[] = [];
