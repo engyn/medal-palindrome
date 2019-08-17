@@ -3,6 +3,8 @@
 Medal React Code project using my development environment/boilerplate. Includes deploying with
 netlify, linting/formatting, and documentation generation. Built using Gatsby.
 
+## Assumptions
+
 The prompt shows that the `oo` in `pool` should be correct, but the `civic` in `civics` is not
 correct. The criteria for correct characters seems inconsistent as they are palindromic substrings.
 Therefore I use the [Manacher's
