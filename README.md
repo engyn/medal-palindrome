@@ -1,7 +1,7 @@
 # Medal Palindrome React Project
 
 Medal React Code project using my development environment/boilerplate. Includes deploying with
-netlify, linting/formatting, and documentation generation.
+netlify, linting/formatting, and documentation generation. Built using Gatsby.
 
 ## 🚀 Quick start
 
@@ -25,6 +25,29 @@ netlify, linting/formatting, and documentation generation.
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
+
+## Overview
+
+```text
+medal-palindrome
+│
+└───internals
+│   │   jest setup and mockups
+│   │
+│   │
+│   └───mocks
+│       │   test mocks
+└───src
+│   │
+│   └───components
+│   │   │   app components
+│   └───config
+│   │   │   configuration files
+│   └───pages
+│   │   │   pages/containers
+│   └───utils
+│       │   utilities functions
+```
 
 ## 📖 Documentation
 
