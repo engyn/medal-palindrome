@@ -3,6 +3,8 @@
 Medal React Code project using my development environment/boilerplate. Includes deploying with
 netlify, linting/formatting, and documentation generation. Built using Gatsby.
 
+See it live on netlify: https://medal-palindrome.netlify.com
+
 ## Assumptions
 
 The prompt shows that the `oo` in `pool` should be correct, but the `civic` in `civics` is not
@@ -10,8 +12,6 @@ correct. The criteria for correct characters seems inconsistent as they are pali
 Therefore I use the [Manacher's
 Algorithm](https://en.wikipedia.org/wiki/Longest_palindromic_substring) to determine the largest
 correct palindromic substring and mark that substring as correct.
-
-See it live on netlify: https://medal-palindrome.netlify.com
 
 ## 🚀 Quick start
 
