@@ -26,7 +26,7 @@ netlify, linting and formatting
 
     Your site is now running at `http://localhost:8000`!
 
-## Documentation
+## 📖 Documentation
 
 1.  **Start the documentation server.**
 
@@ -40,7 +40,7 @@ netlify, linting and formatting
 
     Navigate to `https://localhost:6060`
 
-## Testing
+## 🧪 Testing
 
 Run tests with `yarn test`
 
