@@ -19,7 +19,7 @@ export interface TextInputProps {
  * Text input with button
  */
 const TextInput: React.FC<TextInputProps> = ({
-  value,
+  value = '',
   placeholder,
   onChange,
   onSubmit,
@@ -38,6 +38,7 @@ const TextInput: React.FC<TextInputProps> = ({
           onChange !== undefined && onChange(event.target.value)
         }
         onKeyPress={onKeyPress}
+        aria-label="input"
       />
       <InputGroupAddon addonType="append">
         <Button color="primary" onClick={onSubmit}>

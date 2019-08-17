@@ -37,6 +37,7 @@ const Letter: React.FC<LetterProps> = ({
   `;
   return (
     <span
+      data-testid="letter"
       className={isPalindrome ? 'text-success' : 'text-danger'}
       css={letterStyle}
     >

@@ -36,7 +36,13 @@ const Modal: React.FC<ModalProps> = ({
   children,
 }: ModalProps) => {
   return (
-    <ModalContainer isOpen={show} toggle={toggle} centered css={containerStyle}>
+    <ModalContainer
+      isOpen={show}
+      toggle={toggle}
+      centered
+      css={containerStyle}
+      aria-label="modal"
+    >
       {typeof title === 'string' ? (
         <ModalHeader>{title}</ModalHeader>
       ) : (
