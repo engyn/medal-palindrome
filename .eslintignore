@@ -10,3 +10,4 @@ internals
 src/components/creative-ui
 src/html.js
 styleguide.config.js
+.netlify
