@@ -36,6 +36,7 @@ medal-palindrome
 │   │
 │   └───mocks
 │       │   test mocks
+│
 └───src
 │   │
 │   └───components
