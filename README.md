@@ -1,7 +1,7 @@
 # Medal Palindrome React Project
 
 Medal React Code project using my development environment/boilerplate. Includes deploying with
-netlify, linting and formatting
+netlify, linting/formatting, and documentation generation.
 
 ## 🚀 Quick start
 
