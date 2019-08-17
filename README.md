@@ -34,17 +34,19 @@ medal-palindrome
 └───internals
 │   │   jest setup and mockups
 │   │
-│   │
 │   └───mocks
 │       │   test mocks
 └───src
 │   │
 │   └───components
 │   │   │   app components
+│   │
 │   └───config
 │   │   │   configuration files
+│   │
 │   └───pages
 │   │   │   pages/containers
+│   │
 │   └───utils
 │       │   utilities functions
 ```
