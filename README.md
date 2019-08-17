@@ -3,6 +3,8 @@
 Medal React Code project using my development environment/boilerplate. Includes deploying with
 netlify, linting/formatting, and documentation generation. Built using Gatsby.
 
+See it live on netlify: https://medal-palindrome.netlify.com
+
 ## 🚀 Quick start
 
 1.  **Clone the repository.**
