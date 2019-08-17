@@ -56,7 +56,7 @@ medal-palindrome
 
 1.  **Start the documentation server.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and start the documentation server.
 
     ```sh
     yarn docs
