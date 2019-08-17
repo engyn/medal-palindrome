@@ -13,8 +13,11 @@
   },
   "author": "Kyle Salter <me@kylesalter.com>",
   "scripts": {
+    "prebuild": "yarn typecheck",
     "build": "gatsby build",
     "build-storybook": "build-storybook",
+    "deploy": "netlify deploy",
+    "deploy:prod": "netlify deploy --prod",
     "develop": "gatsby develop",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx --format=pretty",
     "format": "run-p format:*",
@@ -33,12 +36,12 @@
     "lint:watch": "onchange 'src/**/*' --initial --kill --delay 1000  -- yarn lint",
     "start": "yarn develop",
     "storybook": "start-storybook -p 6006",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "test": "jest",
     "typecheck": "yarn tsc --project ./tsconfig.json --noEmit --pretty"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "run-s lint:staged build"
+      "pre-commit": "run-s lint:staged build test"
     }
   },
   "browserslist": [

@@ -18,5 +18,4 @@ module.exports = {
   testURL: 'http://localhost',
   setupFiles: ['<rootDir>/internals/loadershim.js'],
   setupFilesAfterEnv: ['<rootDir>/internals/setup-test-env.js'],
-  setupTestFrameworkScriptFile: '<rootDir>/internals/setup-test-env.js',
 };

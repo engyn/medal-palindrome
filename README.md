@@ -1,5 +1,7 @@
 # Medal Palindrome React Project
 
+Medal React Code project using my development environment/boilerplate. Includes deploying with
+
 ## 🚀 Quick start
 
 1.  **Clone the repository.**
