@@ -11,8 +11,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-emotion',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
