@@ -1,9 +1,9 @@
-# Medal Palindrome React Project
+# Palindrome React Project
 
-Medal React Code project using my development environment/boilerplate. Includes deploying with
+React Code project using my development environment/boilerplate. Includes deploying with
 netlify, linting/formatting, and documentation generation. Built using Gatsby.
 
-See it live on netlify: https://medal-palindrome.netlify.com
+See it live on netlify: https://palindrome.netlify.com
 
 ## Assumptions
 
@@ -17,9 +17,8 @@ correct palindromic substring and mark that substring as correct.
 
 1.  **Clone the repository.**
 
-
     ```sh
-    git clone https://github.com/engyn/medal-palindrome
+    git clone https://github.com/kylesalter/palindrome
     ```
 
 1.  **Start developing.**
@@ -27,7 +26,7 @@ correct palindromic substring and mark that substring as correct.
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd medal-palindrome
+    cd palindrome
     yarn
     yarn start
     ```
@@ -39,7 +38,7 @@ correct palindromic substring and mark that substring as correct.
 ## Overview
 
 ```text
-medal-palindrome
+palindrome
 │
 └───internals
 │   │   jest setup and mockups
@@ -82,6 +81,6 @@ Run tests with `yarn test`
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/engyn/medal-palindrome)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kylesalter/palindrome)
 
 To deploy to netlify via command line, install the `netlify-cli` and run `yarn deploy`.

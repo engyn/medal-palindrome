@@ -20,13 +20,13 @@ const NavBar: React.FC = () => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Medal React Code Project</NavbarBrand>
+        <NavbarBrand href="/">React Code Project</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink
-                href="https://github.com/engyn/medal-palindrome"
+                href="https://github.com/kylesalter/palindrome"
                 target="_blank"
               >
                 My GitHub

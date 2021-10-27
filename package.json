@@ -1,15 +1,15 @@
 {
-  "name": "medal-palindrome",
+  "name": "palindrome",
   "version": "0.0.0-development",
   "private": true,
-  "description": "React Code Project for Medal",
+  "description": "React Code Project",
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/engyn/medal-palindrome"
+    "url": "https://github.com/kylesalter/palindrome"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/engyn/medal-palindrome"
+    "url": "https://github.com/kylesalter/palindrome"
   },
   "author": "Kyle Salter <me@kylesalter.com>",
   "scripts": {
@@ -44,12 +44,7 @@
       "pre-commit": "run-s lint:staged build test"
     }
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "dependencies": {
     "@emotion/core": "^10.0.15",
     "@emotion/styled": "^10.0.15",
